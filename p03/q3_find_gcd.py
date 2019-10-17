@@ -1,4 +1,2 @@
-import math
-def gcd(a,b):
-    print(math.gcd(a,b))
-gcd(int(input()),int(input()))
+from math import gcd
+print(gcd(int(input()),int(input())))
